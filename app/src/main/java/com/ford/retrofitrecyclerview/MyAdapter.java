@@ -47,7 +47,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder>{
         TextView movieBio;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            movieInfoText = itemView.findViewById(R.id.text2);
+            movieInfoText = itemView.findViewById(R.id.movie_info_text_view);
 
 
         }
