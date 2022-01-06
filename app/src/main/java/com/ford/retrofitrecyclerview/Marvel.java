@@ -9,8 +9,10 @@ public class Marvel {
     private String createdby;
     private String publisher;
     private String bio;
+    private String imageurl;
 
-    public Marvel(String name, String realname, String team, String firstappearance, String createdby, String publisher, String bio) {
+
+    public Marvel(String name, String realname, String team, String firstappearance, String createdby, String publisher, String bio, String imageurl) {
         this.name = name;
         this.realname = realname;
         this.team = team;
@@ -18,6 +20,11 @@ public class Marvel {
         this.createdby = createdby;
         this.publisher = publisher;
         this.bio = bio;
+        this.imageurl = imageurl;
+    }
+
+    public String getImageurl() {
+        return imageurl;
     }
 
     public String getName() {

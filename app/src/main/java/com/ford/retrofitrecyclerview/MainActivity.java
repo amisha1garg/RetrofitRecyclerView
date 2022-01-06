@@ -84,7 +84,8 @@ public class MainActivity extends AppCompatActivity {
                             marvel.getFirstappearance(),
                             marvel.getCreatedby(),
                             marvel.getPublisher(),
-                            marvel.getBio()));
+                            marvel.getBio(),
+                            marvel.getImageurl()));
                 }
                 createRecyclerView();
             }
